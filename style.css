@@ -1,0 +1,19 @@
+canvas, video {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  
+}
+
+canvas {
+  z-index: 1;
+}
+
+video {
+  transform: scaleX(-1);
+  
+}
